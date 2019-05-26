@@ -4,7 +4,8 @@ const app = express()
 
 app.get('/', (req, res) => {
     res.json({
-        message: 'App working'
+        message: 'App working',
+        status: 200
     })
 })
 
