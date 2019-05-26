@@ -1,0 +1,27 @@
+{
+  "name": "simple-app",
+  "version": "1.0.0",
+  "description": "a simple app to test AWS ECS",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bastien-m/simple-app.git"
+  },
+  "keywords": [
+    "ECS",
+    "NodeJS"
+  ],
+  "author": "mercier bastien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bastien-m/simple-app/issues"
+  },
+  "homepage": "https://github.com/bastien-m/simple-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
